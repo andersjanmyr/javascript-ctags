@@ -1,0 +1,19 @@
+{
+  "name": "javascript-ctags",
+  "version": "0.0.1",
+  "description": "A command line tool for generating an extended ctags file for Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andersjanmyr/javascript-ctags"
+  },
+  "keywords": [
+    "ctags",
+    "javascript"
+  ],
+  "author": "Anders Janmyr",
+  "license": "BSD"
+}
