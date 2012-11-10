@@ -3,7 +3,7 @@
 require('mocha');
 var expect = require('chai').expect;
 
-var Parser = require('parser');
+var Parser = require('../lib/parser');
 
 describe('Parser', function() {
   var parser;
