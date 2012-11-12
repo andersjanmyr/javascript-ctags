@@ -3,10 +3,10 @@
 require('mocha');
 var expect = require('chai').expect;
 
-var generate = require('../lib/generator');
+var generate = require('../lib/generate');
 
 
-describe('Generator', function() {
+describe('generate', function() {
     describe('#generateFile', function() {
         var entries;
         beforeEach(function() {
