@@ -25,4 +25,8 @@ describe('main', function() {
       expect(options.pattern).to.deep.equal('*.js');
     });
   });
+
+  it('parses the files and generates a tags file', function() {
+      main(['node', 'main', '-t', 'libtags', __dirname + '/fixtures/**/*.js']);
+  });
 });
