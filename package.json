@@ -18,7 +18,8 @@
   "license": "BSD",
   "dependencies": {
     "esprima": "~1.0.2",
-    "underscore": "~1.4.2"
+    "underscore": "~1.4.2",
+    "glob": "~3.1.14"
   },
   "devDependencies": {
     "mocha": "~1.7.0",
