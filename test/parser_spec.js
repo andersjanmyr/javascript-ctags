@@ -18,12 +18,12 @@ describe('Parser', function() {
   });
 
   describe('#parse jQuery', function() {
-    var tree;
+    var list;
     beforeEach(function() {
-      //tree = parser.parse(jQueryFixture);
+      //list = parser.parse(jQueryFixture);
     });
     xit('succeeds', function() {
-      expect(tree).to.be.defined;
+      expect(list).to.be.defined;
     });
   });
 
