@@ -47,6 +47,10 @@ describe('Parser', function() {
     it('parses internal methods', function() {
       expect(names).to.contain('internalMethod');
     });
+    it('returns the correct line numbers', function() {
+      var lines = _.pluck(list, 'line');
+      expect(lines).to.deep.equal([4, 7, 9, 11]);
+    });
   });
 });
 
