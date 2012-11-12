@@ -17,7 +17,7 @@ describe('generate', function() {
             expect(entries).to.have.length(1);
         });
         it('generates one ctag entry', function() {
-            var expected = 'tapir\tfile.js\t/tapir/;"\tf\tlineno:5';
+            var expected = 'tapir\tfile.js\t4/\\<tapir\\>/;"\tf\tlineno:5';
             expect(entries[0]).to.equal(expected);
         });
     });
