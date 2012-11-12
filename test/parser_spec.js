@@ -33,7 +33,6 @@ describe('Parser', function() {
     beforeEach(function() {
       list = parser.parse(objectFixture);
       names = _.pluck(list, 'name');
-      console.log(list, names);
     });
 
     it('parses named functions', function() {
@@ -44,6 +43,9 @@ describe('Parser', function() {
     });
     it('parses prototype methods', function() {
       expect(names).to.contain('prototypeMethod');
+    });
+    it('parses internal methods', function() {
+      expect(names).to.contain('internalMethod');
     });
   });
 });
