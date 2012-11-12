@@ -10,7 +10,8 @@ describe('Generator', function() {
     describe('#generateFile', function() {
         var entries;
         beforeEach(function() {
-            entries = generate.generateFile('file.js', [{name: 'tapir', line: 5 }]);
+            entries = generate.generateEntries('file.js', [
+                                               {name: 'tapir', line: 5 }]);
         });
         it('generates one ctag entry', function() {
             expect(entries).to.have.length(1);

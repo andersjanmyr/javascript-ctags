@@ -27,6 +27,6 @@ describe('main', function() {
   });
 
   it('parses the files and generates a tags file', function() {
-      main(['node', 'main', '-t', 'libtags', __dirname + '/fixtures/**/*.js']);
+    main(['node', 'main', '-t', 'tags', __dirname + '/fixtures/**/*.js']);
   });
 });
