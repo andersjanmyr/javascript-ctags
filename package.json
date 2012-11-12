@@ -17,7 +17,8 @@
   "author": "Anders Janmyr",
   "license": "BSD",
   "dependencies": {
-    "esprima": "~1.0.2"
+    "esprima": "~1.0.2",
+    "underscore": "~1.4.2"
   },
   "devDependencies": {
     "mocha": "~1.7.0",
