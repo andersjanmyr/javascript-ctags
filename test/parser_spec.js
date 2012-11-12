@@ -17,12 +17,12 @@ describe('Parser', function() {
     parser = new Parser();
   });
 
-  describe('#parse jQuery', function() {
+  describe.skip('#parse jQuery', function() {
     var list;
     beforeEach(function() {
-      //list = parser.parse(jQueryFixture);
+      list = parser.parse(jQueryFixture);
     });
-    xit('succeeds', function() {
+    it('succeeds', function() {
       expect(list).to.be.defined;
     });
   });
