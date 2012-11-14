@@ -19,8 +19,6 @@ Currently it indexes all functions, both public and private.
     --tagfile, -t	 The generated tagfile (default tags)
     fileglob	 A glob pattern (supports **/*.js), (default *.js)
 
-    fileglob defaults to: `*.js`, a common pattern is `lib/**/*.js`
-
 
 ## TODO
 
