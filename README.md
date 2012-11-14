@@ -3,7 +3,7 @@
 A command line tool for generating extended ctags files for Javascript.
 Currently it indexes all functions, both public and private.
 
-[![Build Status](https://secure.travis-ci.org/andersjanmyr/sleep-sort.png)](http://travis-ci.org/andersjanmyr/sleep-sort)
+[![Build Status](https://secure.travis-ci.org/andersjanmyr/javascript-ctags.png)](http://travis-ci.org/andersjanmyr/javascript-ctags)
 
 
 ## Installation
