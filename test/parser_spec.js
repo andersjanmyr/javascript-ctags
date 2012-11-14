@@ -7,7 +7,6 @@ var _ = require('underscore');
 
 var Parser = require('../lib/parser');
 
-var jQueryFixture = fs.readFileSync(__dirname + '/fixtures/jQuery-1.8.2.js', 'utf-8');
 var objectFixture = fs.readFileSync(__dirname + '/fixtures/object.js', 'utf-8');
 
 describe('Parser', function() {
@@ -17,9 +16,10 @@ describe('Parser', function() {
     parser = new Parser();
   });
 
-  describe('#parse jQuery', function() {
+  describe.skip('#parse jQuery', function() {
     var list;
     beforeEach(function() {
+        var jQueryFixture = fs.readFileSync(__dirname + '/fixtures/jQuery-1.8.2.js', 'utf-8');
       list = parser.parse(jQueryFixture);
     });
     it('succeeds', function() {
