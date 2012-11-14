@@ -7,12 +7,6 @@ var main = require('../lib/main');
 
 
 describe('main', function() {
-  describe('#files', function() {
-    it('returns 5 nested files for fixtures/**/*.js', function() {
-      var files = main.files(__dirname + '/fixtures/**/*.js', {debug: true});
-      expect(files).to.have.length(5);
-    });
-  });
   describe('#parseArgs', function() {
     it('parses valid options', function() {
       var options = main.parseArgs(['node', 'main', '-t', 'libtags', '**/*.js']);
