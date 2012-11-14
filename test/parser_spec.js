@@ -17,7 +17,7 @@ describe('Parser', function() {
     parser = new Parser();
   });
 
-  describe.skip('#parse jQuery', function() {
+  describe('#parse jQuery', function() {
     var list;
     beforeEach(function() {
       list = parser.parse(jQueryFixture);
