@@ -14,9 +14,9 @@ Currently it indexes all functions, both public and private.
 ## Usage
 
     $ bin/javascript-ctags -?
-    javascript-ctags [-?] [-t tagfile] [fileglob]
+    javascript-ctags [-?] [-t/-f tagfile] [fileglob]
     --help, -h, -?	 show this
-    --tagfile, -t	 The generated tagfile (default tags)
+    --tagfile, -t, -f	 The generated tagfile (default tags), use - for STDOUT
     fileglob	 A glob pattern (supports **/*.js), (default *.js)
 
 
