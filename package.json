@@ -24,7 +24,8 @@
   },
   "devDependencies": {
     "mocha": "~1.7.0",
-    "chai": "~1.3.0"
+    "chai": "~1.3.0",
+    "sinon": "~1.7"
   },
   "bin": { "javascript-ctags": "./bin/javascript-ctags" }
 }
